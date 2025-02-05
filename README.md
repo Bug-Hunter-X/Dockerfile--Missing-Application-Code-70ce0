@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error: failure to copy the application code into the image.  The original Dockerfile is missing the source directory for the Python script. The solution adds the necessary COPY instruction to include the 'app' directory containing 'my_script.py'.
